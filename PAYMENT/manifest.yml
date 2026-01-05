@@ -17,7 +17,8 @@ data:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: payment
+  name: payment 
+  namespace: roboshop 
   labels:
     component: payment
     project: roboshop
